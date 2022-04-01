@@ -1,0 +1,34 @@
+:host {
+  .main {
+    margin: 20px 0;
+    .title {
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    table {
+      width: 100%;
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+    td {
+      text-align: center;
+    }
+    th,
+    td {
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+    .edit {
+      width: 8em;
+      border-radius: 3px;
+      background-color: #004899;
+      color: #fff;
+      border: 1px solid #004899;
+      box-shadow: none;
+      height: 28px;
+    }
+  }
+}

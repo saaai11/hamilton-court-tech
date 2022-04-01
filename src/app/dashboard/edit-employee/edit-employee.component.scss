@@ -1,0 +1,29 @@
+:host {
+  .header {
+    display: flex;
+
+    .heading {
+      flex: 1;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  .btn {
+    display: flex;
+    justify-content: flex-end;
+    .add {
+      width: 70px;
+      border-radius: 7px;
+      background-color: #004899;
+      color: #fff;
+      text-transform: uppercase;
+      border: 1px solid #004899;
+      box-shadow: none;
+      height: 28px;
+    }
+  }
+}
+
+:host ::ng-deep .mat-form-field {
+  width: 100%;
+}

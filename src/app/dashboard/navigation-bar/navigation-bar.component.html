@@ -1,0 +1,30 @@
+<div class="main">
+  <div class="nav">
+    <div class="place-holder">
+      <input
+        type="text"
+        class="input-box"
+        placeholder="Search Devices and Employees"
+        (keyup)="searchData($event)"
+      />
+      <section class="search-results">
+        <ng-container *ngIf="array">
+          <ng-container *ngFor="let item of array">
+            <ng-container *ngIf="'item.type'">
+              <p class="names" [routerLink]="['dashboard/device', item.id]">
+                {{ item.type }}
+              </p>
+            </ng-container>
+            <ng-container *ngIf="'item.name'">
+              <p class="names" [routerLink]="['dashboard/employee', item.id]">
+                {{ item.name }}
+              </p>
+            </ng-container>
+          </ng-container>
+        </ng-container>
+      </section>
+    </div>
+    <button class="employee" (click)="addEmployee()">Add Employee</button>
+    <button class="employee device" (click)="addDevice()">Add Device</button>
+  </div>
+</div>

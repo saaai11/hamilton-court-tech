@@ -1,0 +1,25 @@
+<div class="main">
+  <div class="header">
+    <mat-icon (click)="back()">arrow_back</mat-icon>
+
+    <h1 class="title">View Employee</h1>
+  </div>
+  <div class="emp" *ngIf="employee$ | async as employee">
+    <div class="row">
+      <span class="name"> Id : </span>
+      <span class="emp-name"> {{ employee.id }}</span>
+    </div>
+    <div class="row">
+      <span class="name"> Name : </span>
+      <span class="emp-name"> {{ employee.name }}</span>
+    </div>
+    <div class="row">
+      <span class="name"> Email : </span>
+      <span class="emp-name"> {{ employee.email }}</span>
+    </div>
+    <div class="row">
+      <span class="name"> Contact : </span>
+      <span class="emp-name"> {{ employee.contactNumber }}</span>
+    </div>
+  </div>
+</div>

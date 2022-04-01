@@ -1,0 +1,24 @@
+<div class="main">
+  <h1 class="title">Devices</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>type</th>
+        <th>Description</th>
+        <th>EmpId</th>
+        <th>Edit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let device of devices$ | async">
+        <td>{{ device.id }}</td>
+        <td>{{ device.type }}</td>
+        <td>{{ device.description }}</td>
+        <td>{{ device.empIds }}</td>
+        <td><button class="edit" (click)="editDevice(device)">Edit</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

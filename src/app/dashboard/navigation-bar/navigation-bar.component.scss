@@ -1,0 +1,63 @@
+:host {
+  .main {
+    .nav {
+      display: flex;
+      flex-direction: row;
+      .search {
+      }
+      .place-holder {
+        margin-right: 21px;
+
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+        color: #b3b3b3;
+        .input-box {
+          width: 100%;
+          height: 28px;
+          padding: 0 48px;
+          outline: none;
+          border: 1px solid grey;
+          border-radius: 30px;
+          margin: 0 3px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+        }
+        .search-results {
+          hr {
+            margin: 0 10px;
+            border: none;
+            height: 1px;
+          }
+          .names {
+            margin-left: 17px;
+            margin-top: 15px;
+            font-size: 18px;
+            color: black;
+          }
+        }
+      }
+      ::-webkit-input-placeholder {
+        text-align: center;
+      }
+
+      .employee {
+        margin: 0 2px;
+        flex: 2;
+        border-radius: 7px;
+        background-color: #004899;
+        color: #fff;
+        text-transform: uppercase;
+        border: 1px solid #004899;
+        box-shadow: none;
+        height: 28px;
+      }
+      .device {
+        background-color: #fff;
+        color: #004899;
+        border: 2px solid #004899;
+      }
+    }
+  }
+}

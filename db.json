@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "chinna",
+      "email": "chinna@gmail.comm",
+      "contactNumber": "9122322123"
+    },
+    {
+      "id": 2,
+      "name": "suchit",
+      "email": "suchit@gmail.com",
+      "contactNumber": "765433578"
+    },
+    {
+      "id": 3,
+      "name": "harish",
+      "email": "harsh@gmail.com",
+      "contactNumber": "888888"
+    },
+    {
+      "id": 4,
+      "name": "vamsi",
+      "email": "vamsi@gmail.com",
+      "contactNumber": "7654325666"
+    },
+    {
+      "id": 5,
+      "name": "saiiiiii",
+      "email": "sai123@gmail.com",
+      "contactNumber": "9122321233"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "type": "Google pixel",
+      "description": "new google pixel 6",
+      "empIds": 1
+    },
+    {
+      "id": 2,
+      "type": "iphone 13",
+      "description": "prathap's iphone",
+      "empIds": 1
+    },
+    {
+      "id": 3,
+      "type": "Samsung",
+      "description": "Android phone",
+      "empIds": 2
+    },
+    {
+      "id": 4,
+      "type": "iphone11",
+      "description": "varaint of apple",
+      "empIds": 2
+    }
+  ]
+}
