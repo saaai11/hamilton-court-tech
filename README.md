@@ -4,7 +4,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
 **##start mock-data server**
-in the commoand line type 'json-server --watch db.json'
+in the command line type  : 'json-server --watch db.json' which start json server.
 
 ## Development server
 
